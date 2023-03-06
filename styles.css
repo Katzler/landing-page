@@ -33,7 +33,7 @@ header {
 
 .navLinks a:hover {
     text-decoration: none;
-    color: orange;
+    color: #f4a23d;
 } 
 
 .logo {
@@ -50,20 +50,31 @@ header {
     color: #F9FAF8;
 } 
 
+.hero {
+    border: 1px rgb(230, 255, 106) solid ;
+    display: flex;
+    margin: 10% 0 0 0;
+    padding: 0;
+}
+
 .heroMainText {
     /* border: 1px green solid; */
     font-size: 48px;
     font-weight: 800;
     color: #F9FAF8;
+    margin: 0;
+    padding: 0;
 }
 
 .heroText  {
     /* border: 1px rgb(133, 255, 133) solid; */
     font-size: 18px;
     color: #E5E7EB;
+    margin: 0;
+    padding: 0;
 }
 
 button {
-    
+;
 }
 
