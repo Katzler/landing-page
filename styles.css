@@ -1,37 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 body {
+        /* border: red 1px solid; */
     font-family: roboto;
     margin: 0;
     padding: 0;
-    /* border: red 1px solid; */
+    /* background-color: #1F2937; */
 }
 
 header {
     background-color: #1F2937;
-    color: #F9FAF8;
-    margin: 0;
     padding: 0;
-    
-}
-
-.logo {
-    border: 1px rgb(230, 255, 106) solid ;
-    margin: 0;
-    font-size: 24px;
-    color: #F9FAF8;
+    padding: 1% 10% 10% 10%;
 }
 
 .navLinks {
+    /* border:1px red solid; */
     display: flex;
     justify-content: flex-end;
-    gap: 2em;
+    align-items: center;
+    gap: 1em;
     list-style: none;
-    border:1px red solid;
     margin: 0;
     padding: 0;
     font-size: 18px;
-    
 }
 
 .navLinks a {
@@ -39,15 +31,39 @@ header {
     color: #E5E7EB;
 } 
 
+.navLinks a:hover {
+    text-decoration: none;
+    color: orange;
+} 
+
+.logo {
+    /* border: 1px rgb(230, 255, 106) solid ; */
+    display: flex;
+    flex: 1;
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+.logo a:hover {
+    text-decoration: none;
+    color: #F9FAF8;
+} 
+
 .heroMainText {
-    border: 1px green solid;
+    /* border: 1px green solid; */
     font-size: 48px;
     font-weight: 800;
+    color: #F9FAF8;
 }
 
 .heroText  {
-    border: 1px rgb(133, 255, 133) solid;
+    /* border: 1px rgb(133, 255, 133) solid; */
     font-size: 18px;
     color: #E5E7EB;
+}
+
+button {
+    
 }
 
